@@ -1,0 +1,54 @@
+body {
+    color: rgb(227, 0, 248);
+    background: #b9cefd;
+    font-family: 'Playfair Display', serif;
+  }
+  
+  span {
+    font-size: 30px;
+  }
+  
+  #camera,
+  #result {
+    border: 2px dashed black;
+    width: 350px;
+    height: 300px;
+    box-shadow: 5px 5px 5px gray;
+  }
+  
+  #result_emotion_name,
+  #result_emotion_name2 {
+    color: black;
+  }
+  
+  .emotion_name {
+    font-size: 40px;
+  }
+  
+  .emoji {
+    font-size: 48px;
+  }
+  
+  .heading {
+    font-size: 22px;
+    border-radius: 10px;
+    letter-spacing: 10px;
+  }
+  
+  label {
+    font-size: 18px;
+    color: hotpink;
+    padding: 6px;
+    border-radius: 5px;
+    background-color: rgba(255, 255, 255, 0.444);
+  }
+  
+  .copy_right_footer {
+    position: fixed;
+    color: white;
+    bottom: 0;
+    width: 100%;
+    background-color: grey;
+    line-height: 3;
+    text-align: center;
+  }
